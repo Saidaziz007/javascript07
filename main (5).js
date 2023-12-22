@@ -1,34 +1,34 @@
-// arr1;
+// array 1
 
 // let n = 5;
 
 // const getLevel2 = (n) => {
-//   let arr = [];
+//   let arr = []
 
 //   for (let i = 0; i < n; i++) {
-//     arr[i] = 2 ** (i + 1);
-//   }
+//     arr[i] = 2**(i+1);
+//   };
 //   return arr;
 // };
 
 // console.log(getLevel2(n));
 
-// arr2;
+// array 2
 
 // let n = 5;
 // let A = 2;
 // let B = 3;
 // let arr = [A, B];
 
-// for (let i = 2; i < n; i++) {
-//   arr[i] = (A + B) * 2 ** (i - 2);
-// }
+//   for (let i = 2; i < n; i++) {
+//     arr[i] = (A + B)*(2**(i-2));
+//   };
 
 // console.log(arr);
 
-// arr3;
+// array 3
 
-// let n = 4;
+// let n = 5;
 // let arr = [];
 
 // for (let i = 0; i < n; i++) {
@@ -36,15 +36,15 @@
 //   arr[i] = temp;
 // }
 
-// console.log(...arr);
-// let res = arr.reverse();
-// console.log(...arr);
+// console.log(arr);
+// let res = arr.reverse(); // manda toReversed ishlamadi!
+// console.log(arr);
 
-// arr4;
+// array 4
 
 // let n = 5;
 // let arr = [];
-// let arrToq = [];
+// let arrOfToq = [];
 
 // for (let i = 0; i < n; i++) {
 //   let temp = Math.round(Math.random() * 10) * (Math.random() > 0.6 ? -1 : 1);
@@ -53,18 +53,18 @@
 
 // for (let i = 0; i < arr.length; i++) {
 //   if (arr[i] % 2 != 0) {
-//     arrToq.push(arr[i]);
+//     arrOfToq.push(arr[i]);
 //   }
 // }
 
-// console.log(arr, arrToq);
+// console.log(arr, arrOfToq);
 
-// arr5;
+// array 5
 
-// let n = 8;
+// let n = 6;
 // let arr = [];
-// let arrToq = [];
-// let arrJuft = [];
+// let arrOfToq = [];
+// let arrOfJuft = [];
 
 // for (let i = 0; i < n; i++) {
 //   let temp = Math.round(Math.random() * 9 + 1) * (Math.random() > 0.6 ? -1 : 1);
@@ -73,18 +73,18 @@
 
 // for (let i = 0; i < arr.length; i++) {
 //   if (arr[i] % 2 == 0) {
-//     arrJuft.push(arr[i]);
+//     arrOfJuft.push(arr[i]);
 //   } else {
-//     arrToq.unshift(arr[i]);
+//     arrOfToq.unshift(arr[i])
 //   }
 // }
 
 // console.log(arr);
-// arr = [...arrJuft, ...arrToq];
-// console.log(arrJuft, ...arrToq);
+// arr = [...arrOfJuft, ...arrOfToq];
+// console.log(arrOfJuft, arrOfToq);
 // console.log(arr);
 
-// arr6;
+// array 6
 
 // let n = 6;
 // let arr = [];
@@ -95,11 +95,11 @@
 // }
 
 // console.log(arr);
-// for (let i = 0; i < arr.length; i += 2) {
+// for (let i = 0; i < arr.length; i+=2) {
 //   console.log(arr[i]);
 // }
 
-// arr7;
+// array 7*
 
 // let n = 6;
 // let arr = [];
@@ -110,85 +110,85 @@
 // }
 
 // console.log(arr);
-// for (let i = 0; i < arr.length; i += 2) {
+// for (let i = 0; i < arr.length; i+=2) {
 //   console.log(arr[i]);
 // }
 
-// arr8;
-
-// let n = 5;
-// let arr = [];
-// let arrToq = [];
-// let arrJuft = [];
-
-// for (let i = 0; i < n; i++) {
-//   let temp = Math.round(Math.random() * 9 + 1) * (Math.random() > 0.6 ? -1 : 1);
-//   arr[i] = temp;
-// }
-
-// for (let i = 0; i < arr.length; i += 2) {
-//   arrJuft.push(arr[i]);
-// }
-// for (let i = 1; i < arr.length; i += 2) {
-//   arrToq.push(arr[i]);
-// }
-
-// console.log(arr);
-// arr = [...arrJuft, ...arrToq];
-// console.log(arrJuft, ...arrToq);
-// console.log(arr);
-
-// arr9;
+// array 8
 
 // let n = 6;
 // let arr = [];
-// let arrToq = [];
-// let arrJuft = [];
+// let arrOfToq = [];
+// let arrOfJuft = [];
 
 // for (let i = 0; i < n; i++) {
 //   let temp = Math.round(Math.random() * 9 + 1) * (Math.random() > 0.6 ? -1 : 1);
 //   arr[i] = temp;
 // }
 
-// for (let i = 0; i < arr.length; i += 2) {
-//   arrJuft.unshift(arr[i]);
+// for (let i = 0; i < arr.length; i+=2) {
+//   arrOfJuft.push(arr[i]);
 // }
-// for (let i = 1; i < arr.length; i += 2) {
-//   arrToq.push(arr[i]);
+// for (let i = 1; i < arr.length; i+=2) {
+//     arrOfToq.push(arr[i]);
 // }
 
 // console.log(arr);
-// arr = [...arrToq, ...arrJuft];
-// console.log(arrToq, ...arrJuft);
+// arr = [...arrOfJuft, ...arrOfToq];
+// console.log(arrOfJuft, arrOfToq);
 // console.log(arr);
 
-// arr10;
+// array 9
 
 // let n = 6;
 // let arr = [];
-// let arrToq = [];
-// let arrJuft = [];
+// let arrOfToq = [];
+// let arrOfJuft = [];
 
 // for (let i = 0; i < n; i++) {
 //   let temp = Math.round(Math.random() * 9 + 1) * (Math.random() > 0.6 ? -1 : 1);
 //   arr[i] = temp;
 // }
 
-// for (let i = 0; i < arr.length; i += 2) {
-//   arrJuft.unshift(arr[i]);
+// for (let i = 0; i < arr.length; i+=2) {
+//   arrOfJuft.unshift(arr[i]);
 // }
-// for (let i = 1; i < arr.length; i += 2) {
-//   arrToq.push(arr[i]);
+// for (let i = 1; i < arr.length; i+=2) {
+//   arrOfToq.push(arr[i]);
 // }
 
 // console.log(arr);
-// arr = [...arrToq, ...arrJuft];
-// console.log(arrToq, arrJuft);
+// arr = [...arrOfToq, ...arrOfJuft];
+// console.log(arrOfToq, arrOfJuft);
 // console.log(arr);
 
-// arr11;
+// array 10*
 
-// let n = 7;
+// let n = 6;
+// let arr = [];
+// let arrOfToq = [];
+// let arrOfJuft = [];
+
+// for (let i = 0; i < n; i++) {
+//   let temp = Math.round(Math.random() * 9 + 1) * (Math.random() > 0.6 ? -1 : 1);
+//   arr[i] = temp;
+// }
+
+// for (let i = 0; i < arr.length; i+=2) {
+//   arrOfJuft.unshift(arr[i]);
+// }
+// for (let i = 1; i < arr.length; i+=2) {
+//   arrOfToq.push(arr[i]);
+// }
+
+// console.log(arr);
+// arr = [...arrOfToq, ...arrOfJuft];
+// console.log(arrOfToq, arrOfJuft);
+// console.log(arr);
+
+// array 11
+
+// let n = 10;
 // let K = 3;
 // let L = 6;
 // let arr = [];
@@ -200,24 +200,24 @@
 
 // const rangeOutSum = (arr) => {
 //   let res = 0;
-//   let sumS = 0;
-//   let sumI = 0;
-//   for (let i = 0; i < arr.length; i++) {
-//     sumS += arr[i];
+//   let sumAll = 0;
+//   let sumIn = 0;
+//   for (let i = 0; i < arr.length; i ++) {
+//     sumAll += arr[i];
 //     if (K <= i && i <= L) {
-//       sumI += arr[i];
-//     }
-//   }
-//   res = sumS - sumI;
+//       sumIn += arr[i];
+//     };
+//   };
+//   res = sumAll - sumIn;
 //   return res;
 // };
 
 // console.log(arr);
 // console.log(rangeOutSum(arr));
 
-// arr12;
+// array 12
 
-// let arr = [10, false, "", "Saidaziz", null];
+// let arr = [10, false, "", "Abdulaziz", null];
 // let truthy = [];
 // let falsy = [];
 
@@ -232,36 +232,37 @@
 // console.log(arr);
 // console.log(truthy, falsy);
 
-// arr13;
+// array 13
 
-// let n = 5;
+// let n = 10;
 // let arr = [];
 
 // for (let i = 0; i < n; i++) {
-//   let temp = Math.round(Math.random() * 9 + 1) * (Math.random() > 0.6 ? -1 : 1);
+//   let temp = Math.round(Math.random() * 9 + 1)*(Math.random() > 0.6 ? -1 : 1);
 //   arr[i] = temp;
 // }
 
 // const getOddMin = (arr) => {
-//   let odd = [];
+//   let odds = [];
 //   let res;
+//   // 0 ni ham juft deb hisobladim
 //   for (let i = 0; i < arr.length; i += 2) {
-//     odd.push(arr[i]);
-//   }
-//   res = Math.min(...odd);
+//     odds.push(arr[i]);
+//   };
+//   res = Math.min(...odds)
 //   return res;
 // };
 
 // console.log(arr);
 // console.log(getOddMin(arr));
 
-// arr14;
+// array 14
 
-// let n = 5;
+// let n = 10;
 // let arr = [];
 
 // for (let i = 0; i < n; i++) {
-//   let temp = Math.round(Math.random() * 9 + 1) * (Math.random() > 0.6 ? -1 : 1);
+//   let temp = Math.round(Math.random() * 9 + 1)*(Math.random() > 0.6 ? -1 : 1);
 //   arr[i] = temp;
 // }
 
@@ -270,38 +271,38 @@
 //   let res;
 //   for (let i = 1; i < arr.length; i += 2) {
 //     evens.push(arr[i]);
-//   }
-//   res = Math.max(...evens);
+//   };
+//   res = Math.max(...evens)
 //   return res;
 // };
 
 // console.log(arr);
 // console.log(getEvenMax(arr));
 
-// arr15;
+// array 15
 
-// let n = 5;
+// let n = 10;
 // let arr = [];
-// let res = "Bunday son yoq";
+// let res = "Massivda unday son yo'q";
 
 // for (let i = 0; i < n; i++) {
 //   let temp = Math.round(Math.random() * 9 + 1) * (Math.random() > 0.6 ? -1 : 1);
 //   arr[i] = temp;
 // }
 
-// for (let i = arr.length - 1; i >= 0; i--) {
-//   if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
+// for (let i = arr.length-1; i >= 0; i --) {
+//   if (arr[i] > arr[i-1] && arr[i] > arr[i+1]) {
 //     res = arr[i];
-//   }
-// }
+//   };
+// };
 
 // console.log(arr);
 // console.log(res);
 
-// arr16;
+// array 16
 
-// let n = 5;
-// let R = 4;
+// let n = 10;
+// let R = 8;
 // let arr = [];
 // let res;
 // let oldTemp = Infinity;
@@ -312,7 +313,7 @@
 // }
 
 // for (let i = 0; i <= arr.length; i++) {
-//   let newTemp = Math.abs(R - arr[i]);
+//   let newTemp = Math.abs(R - arr[i])
 //   if (oldTemp > newTemp) {
 //     oldTemp = newTemp;
 //     console.log(newTemp);
@@ -323,7 +324,7 @@
 // console.log(arr);
 // console.log(res);
 
-// arr17;
+// array 17
 
 // let n = 10;
 // let arr = [];
@@ -346,9 +347,9 @@
 // console.log(arr);
 // console.log(res);
 
-// arr18;
+// array 18
 
-// let n = 10;
+// let n = 20;
 // let arr = [];
 // let res;
 
@@ -361,16 +362,16 @@
 //   if (arr[i] === arr[i + 1]) {
 //     res = [i, i + 1];
 //   } else {
-//     res = "Bunday son yoq";
+//     res = "Uzur unday son yo'q qayta urinib ko'ring"
 //   }
 // }
 
 // console.log(arr);
 // console.log(res);
 
-// arr19;
+// array 19 // eng birinchi va eng kop qaytarilgan birhil sonlani topdim
 
-// let n = 5;
+// let n = 10;
 // let arr = [];
 // let oldTemp;
 // let oldCount = 0;
@@ -394,12 +395,12 @@
 //     }
 //   }
 //   res = [oldTemp, oldCount];
-// }
+// };
 
 // console.log(arr);
 // console.log(res[0] + " dan " + res[1] + " ta");
 
-// arr20;
+// array 20
 
 // let n = 10;
 // let arrA = [];
@@ -412,19 +413,19 @@
 
 // for (let i = 0; i < arrA.length; i++) {
 //   if (arrA[i] % 2 == 0) {
-//     arrB.push(arrA[i]);
+//     arrB.push(arrA[i])
 //   }
-// }
+// };
 
-// console.log(arrA);
-// console.log(arrB.length);
+// console.log("a massiv: " + arrA);
+// console.log("b massiv elementlari soni: " + arrB.length);
 // for (let i = 0; i < arrB.length; i++) {
-//   console.log(arrB[i]);
+//   console.log(arrB[i] + " b massiv elementi");
 // }
 
-// arr21;
+// array 21
 
-// let n = 6;
+// let n = 10;
 // let k = 2;
 // let arr = [];
 
@@ -441,9 +442,9 @@
 
 // console.log(arr);
 
-// arr22;
+// array 22
 
-// let n = 5;
+// let n = 10;
 // let arr = [];
 
 // for (let i = 0; i < n; i++) {
@@ -453,13 +454,13 @@
 
 // console.log(arr);
 
-// arr.push(...arr.splice(0, n / 2));
+// arr.push(...arr.splice(0, n/2))
 
 // console.log(arr);
 
-// arr23;
+// array 23
 
-// let n = 5;
+// let n = 10;
 // let arr = [];
 // let temp = [];
 
@@ -477,9 +478,9 @@
 
 // console.log(arr);
 
-// arr24;
+// array 24
 
-// let n = 6;
+// let n = 10;
 // let arr = [];
 // let min;
 // let max;
@@ -508,9 +509,9 @@
 
 // console.log(arr);
 
-// arr25;
+// array 25
 
-// let n = 25;
+// let n = 10;
 // let arr = [];
 
 // for (let i = 0; i < n; i++) {
@@ -520,13 +521,13 @@
 
 // console.log(arr);
 
-// arr.unshift(...arr.splice(1));
+// arr.unshift(...arr.splice(1))
 
 // console.log(arr);
 
-// arr26;
+// array 26
 
-// let n = 20;
+// let n = 10;
 // let k = 6;
 // let arr = [];
 
@@ -540,13 +541,13 @@
 // const deleteElementWithIndex = (arr, k) => {
 //   arr.splice(k, 1);
 //   return arr;
-// };
+// }
 
 // console.log(deleteElementWithIndex(arr, k));
 
-// arr27;
+// array 27
 
-// let n = 15;
+// let n = 10;
 // let k = 3;
 // let m = 6;
 // let arr = [];
@@ -565,9 +566,9 @@
 
 // console.log(delElFromKToM(arr, k, m), arr.length);
 
-// arr28;
+// array 28 // ketma ket kelgan bir hil sonlarni faqat bittasini qoldiradi
 
-// let n = 5;
+// let n = 10;
 // let arr = [];
 // let temp = [];
 
@@ -585,14 +586,14 @@
 // }
 
 // for (let i = 0; i < temp.length; i++) {
-//   arr.splice(temp[i], 1);
+//   arr.splice(temp[i], 1)
 // }
 
 // console.log(arr);
 
-// arr29;
+// array 29
 
-// let n = 5;
+// let n = 10;
 // let arr = [];
 
 // for (let i = 0; i < n; i++) {
@@ -612,7 +613,7 @@
 //       }
 //     }
 //     if (count <= 1) {
-//       res.push(arr[i]);
+//       res.push(arr[i])
 //     }
 //     count = 0;
 //   }
@@ -622,9 +623,9 @@
 
 // console.log(getElementsOneTime(arr));
 
-// arr30;
+// array 30
 
-// let n = 20;
+// let n = 10;
 // let k = 3;
 // let arr = [];
 
@@ -639,7 +640,7 @@
 //   let res = [];
 //   for (let i = 0; i < arr.length; i++) {
 //     if (arr[i] == 3) {
-//       res.push(i);
+//       res.push(i)
 //     }
 //   }
 //   return res;
